@@ -253,7 +253,7 @@ p {
     gap: 24px;
 }
 
-.we-are li {
+.section-bottom-item {
     flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -352,7 +352,7 @@ p {
 
 
 /* ====== PORTFOLIO PAGE ===== */
-.main-section: {
+.section: {
     margin: 0 auto;
     padding: 96px 0 120px;
 }
@@ -430,6 +430,7 @@ button {
     row-gap: 48px;
     margin: 0 auto;
     margin-bottom: 72px;
+    border-top: none;
 }
 
 .gallery-item {
