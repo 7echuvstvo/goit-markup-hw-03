@@ -352,9 +352,10 @@ p {
 
 
 /* ====== PORTFOLIO PAGE ===== */
-.section-portfolio: {
-    margin: 0 auto;
+
+.section-portfolio {
     padding: 96px 0 120px;
+    marin: 0 auto;
 }
 
 
@@ -431,7 +432,7 @@ button {
     row-gap: 48px;
     margin: 0 auto;
     margin-bottom: 72px;
-    border-top: none;
+
 }
 
 .gallery-item {
@@ -441,6 +442,7 @@ button {
 .card-box-portfolio {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .card-box-portfolio h2 {
