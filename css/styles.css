@@ -375,7 +375,7 @@ button {
 
 /* ===== GALLERY ======== */
 .gallery-box {
-    margin: 0 auto;
+    margin: 0 auto 120px;
     width: 1158px;
 }
 
@@ -389,10 +389,9 @@ button {
 }
 
 .gallery-item {
-    /* flex-basis: ((100% - 24px * 2) / 3); */
     flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     /* max-width: 360px; */
-    background-color: red;
+
 
 }
 
