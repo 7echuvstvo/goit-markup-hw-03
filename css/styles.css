@@ -257,7 +257,7 @@ p {
     flex-basis: calc((100% - 48px) / 3);
 }
 
-.section-bottom {
+.section-bottom.container {
     padding-bottom: 120px;
     margin: 0 auto;
     width: 1158px;
@@ -352,10 +352,11 @@ p {
 
 
 /* ====== PORTFOLIO PAGE ===== */
-.section: {
+.section-portfolio: {
     margin: 0 auto;
     padding: 96px 0 120px;
 }
+
 
 .container {
     width: 1158px;
