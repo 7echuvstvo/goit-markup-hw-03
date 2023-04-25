@@ -67,6 +67,11 @@ p {
 
 /* ========== RESET ========== */
 
+
+.flex-block {
+    display: flex;
+}
+
 /* ========= HEADER ========= */
 
 .header-box {
@@ -74,6 +79,11 @@ p {
     margin: 0 auto;
     display: flex;
     padding: 25px 0;
+}
+
+.header-section {
+    padding: 25px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-section {
@@ -147,23 +157,26 @@ p {
 .hero-section {
     background: #2E2F42;
     padding: 188px 0;
-    margin-bottom: 120px;
+
 }
 
 .hero-block {
     display: block;
     width: 496px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .hero-title {
+    max-width: 496px;
+    text-align: center;
     font-weight: 600;
     font-size: 56px;
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
 
 }
 
@@ -180,8 +193,7 @@ p {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
-    width: 169px;
-    height: 56px;
+    min-width: 169px height: 56px;
 }
 
 .modal-button:hover,
@@ -192,19 +204,22 @@ p {
 /* ========== HERO ========== */
 
 /* ========== POSSIBILITIES ========== */
-.possibilities-box {
+.possibilities-section {
     margin: 0 auto;
     width: 1158px;
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .possibilities-list {
     display: flex;
-    justify-content: space-between;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    /* justify-content: space-between; */
+    gap: 24px;
 }
 
 .possibilities-item {
     width: 264px;
+
 }
 
 .possibilities-item h3 {
@@ -331,11 +346,12 @@ p {
 /* ====== PORTFOLIO PAGE ===== */
 
 .container {
+    /* display: flex;
+    justify-content: center; */
     width: 1158px;
     margin: 0 auto;
-    display: flex;
     padding: 0 15px;
-    justify-content: center;
+
 }
 
 .portfolio-header {
@@ -380,11 +396,17 @@ p {
 button {
     display: block;
     border: none;
+    min-width: 169px;
+    height: 56px
 }
 
 /* ===== GALLERY ======== */
+.section-gallery {
+    padding: 120px 0;
+}
+
 .gallery-box {
-    margin: 0 auto 120px;
+    margin: 0 auto;
     width: 1158px;
 }
 
@@ -392,11 +414,13 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 48px;
+    gap: 24px;
     margin: 0 auto;
 }
 
-/* .gallery-item {} */
+.gallery-item {
+    width calc((100% - 3 * 24px) / 4)
+}
 
 .card-box-portfolio {
     padding: 32px 16px;
