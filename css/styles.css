@@ -1,0 +1,406 @@
+:root {
+    --primary-text-color: #434455;
+    --indent: 20px;
+    --items: 5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.list {
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.accent-logo-heder {
+    color: #2e2f42;
+}
+
+.accent-logo-footer {
+    color: #F4F4FD;
+}
+
+/*========= RESET======= */
+.hidden-text {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    margin: 0 auto; */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    /* margin: 0 auto; */
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== RESET ========== */
+
+/* ========= HEADER ========= */
+.portfolio-header {
+    border-bottom: 1px solid #E7E9FC;
+    margin-bottom: 96px;
+}
+
+.header-box {
+    width: 1158px;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px 0;
+}
+
+.nav-section {
+    display: flex;
+}
+
+
+.logo-header {
+    margin-right: 76px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #4D5AE5;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list>li+li {
+    margin-left: 40px;
+}
+
+.link-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.link-header:hover,
+.link-header:focus {
+    color: #404bbf
+}
+
+.address-list {
+    display: flex;
+}
+
+.address-list>li+li {
+    margin-left: 40px;
+}
+
+.address {
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-item {
+    color: #434455;
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+
+/* ========= HEADER ========= */
+
+/* ========== HERO ========== */
+
+.hero-section {
+    background: #2E2F42;
+    padding: 188px 0;
+    margin-bottom: 120px;
+}
+
+.hero-block {
+    display: block;
+    width: 496px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+
+}
+
+.modal-button {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    width: 169px;
+    height: 56px;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: #404BBF
+}
+
+/* ========== HERO ========== */
+
+/* ========== POSSIBILITIES ========== */
+.possibilities-box {
+    margin: 0 auto;
+    width: 1158px;
+    margin-bottom: 120px;
+}
+
+.possibilities-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.possibilities-item {
+    width: 264px;
+}
+
+.possibilities-item h3 {
+    margin-bottom: 8px;
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.list-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/* ===== BOTTOM SECTION ======= */
+.we-are {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.we-are li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.section-bottom-item {
+    background-color: #FFFFFF;
+}
+
+.section-bottom-description {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+/* ===== TEAM SECTION ====== */
+.team-section {
+    background-color: #F4F4FD
+}
+
+.team-box {
+    width: 1158px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-box {
+    padding: 32px 0;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.team-list h3 {
+    margin-bottom: 8px;
+}
+
+/* ========= FOOTER ========= */
+.footer-section {
+    background: #2E2F42;
+}
+
+.footer-box {
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 1158px;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+    width: 264px;
+}
+
+.logo-footer {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    margin-bottom: 18px;
+}
+
+
+/* ====== PORTFOLIO PAGE ===== */
+
+.portfolio-nav-btm {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+
+.portfolio-nav-btm:hover,
+.portfolio-nav-btm:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
+
+.list-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.list-nav li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.nav-box {
+    margin: 0 auto 72px;
+}
+
+button {
+    display: block;
+}
+
+/* ===== GALLERY ======== */
+.gallery-box {
+    margin: 0 auto;
+    width: 1158px;
+}
+
+.gallery-box-card {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    row-gap: 48px;
+    margin: 0 auto;
+
+}
+
+.gallery-item {
+    /* flex-basis: ((100% - 24px * 2) / 3); */
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+    /* max-width: 360px; */
+    background-color: red;
+
+}
+
+.card-box-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+}
+
+.card-box-portfolio h2 {
+    margin-bottom: 8px;
+}
