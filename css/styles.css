@@ -334,7 +334,8 @@ p {
     width: 1158px;
     margin: 0 auto;
     display: flex;
-    padding: 0 15px
+    padding: 0 15px;
+    justify-content: center;
 }
 
 .portfolio-header {
