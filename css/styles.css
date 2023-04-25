@@ -352,10 +352,12 @@ p {
 
 
 /* ====== PORTFOLIO PAGE ===== */
+.main-section: {
+    margin: 0 auto;
+    padding: 96px 0 120px;
+}
 
 .container {
-    /* display: flex;
-    justify-content: center; */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -424,6 +426,7 @@ button {
     justify-content: space-between;
     gap: 24px;
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .gallery-item {
