@@ -1,7 +1,7 @@
 :root {
     --primary-text-color: #434455;
-    --indent: 20px;
-    --items: 5;
+    /* --indent: 20px;
+    --items: 5; */
 }
 
 body {
@@ -119,6 +119,7 @@ p {
 
 .address-list {
     display: flex;
+
 }
 
 .address-list>li+li {
@@ -382,14 +383,12 @@ button {
 .gallery-box-card {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     row-gap: 48px;
     margin: 0 auto;
 }
 
-.gallery-item {
-    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+/* .gallery-item {} */
 
 .card-box-portfolio {
     padding: 32px 16px;
